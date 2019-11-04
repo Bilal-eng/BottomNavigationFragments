@@ -55,7 +55,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //Look this is the layout file I am linking.
         setContentView(R.layout.activity_main)
 
 
@@ -79,4 +78,11 @@ class MainActivity : AppCompatActivity() {
             .add(R.id.main_container, fragment1, "1")
             .commit()
     }
+
+    override fun onResume() {
+        super.onResume()
+    }
+
+
+
 }
