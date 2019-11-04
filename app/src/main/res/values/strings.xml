@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BottomNavigation Fragments</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <string name="counterValue">counter %1$d</string>
+    <string name="increase_counter">Add One</string>
+</resources>
