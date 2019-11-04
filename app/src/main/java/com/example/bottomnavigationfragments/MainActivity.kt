@@ -79,11 +79,4 @@ class MainActivity : AppCompatActivity() {
             .add(R.id.main_container, fragment1, "1")
             .commit()
     }
-
-    override fun onResume() {
-        super.onResume()
-    }
-
-
-
 }
